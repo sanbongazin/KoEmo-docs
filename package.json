@@ -1,0 +1,13 @@
+{
+  "name": "koemo-docs",
+  "version": "1.0.0",
+  "description": "KoeMo 公式ドキュメントサイト",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  }
+}
