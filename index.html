@@ -23,21 +23,14 @@
       formatUpdated: '{MM}/{DD} {HH}:{mm}',
       plugins: [
         function(hook) {
-          hook.afterEach(function(html, next) {
-            next(html.replace(
-              /<pre[^>]*data-lang="mermaid"[^>]*><code[^>]*>([\s\S]*?)<\/code><\/pre>/g,
-              function(match, code) {
-                var decoded = code
-                  .replace(/&lt;/g, '<')
-                  .replace(/&gt;/g, '>')
-                  .replace(/&amp;/g, '&')
-                  .replace(/&#39;/g, "'")
-                  .replace(/&quot;/g, '"');
-                return '<div class="mermaid">' + decoded + '</div>';
-              }
-            ));
-          });
           hook.doneEach(function() {
+            document.querySelectorAll('code.lang-mermaid').forEach(function(el) {
+              var code = el.textContent;
+              var div = document.createElement('div');
+              div.className = 'mermaid';
+              div.textContent = code;
+              el.parentNode.replaceWith(div);
+            });
             mermaid.init(undefined, '.mermaid');
           });
         }
