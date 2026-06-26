@@ -2,7 +2,7 @@
 
 ## インストール手順
 
-1. [GitHub Releases](https://github.com/sanbongazin/VoiceEmo-releases/releases/latest) から `VoxEmo_Launcher.exe` をダウンロードします
+1. [BOOTH](https://akihoshidatainc.booth.pm/items/8350327) で VoxEmo を購入し、`VoxEmo_Launcher.exe` をダウンロードします
 2. 任意のフォルダに配置して起動します
 3. 初回起動時にセットアップウィザードが自動で実行されます
    - 必要なファイルのダウンロード
