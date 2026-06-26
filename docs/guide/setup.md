@@ -2,7 +2,7 @@
 
 ## インストール手順
 
-1. [GitHub Releases](https://github.com/sanbongazin/VoiceEmo-releases/releases/latest) から `KoeMo_Launcher.exe` をダウンロードします
+1. [GitHub Releases](https://github.com/sanbongazin/VoiceEmo-releases/releases/latest) から `VoxEmo_Launcher.exe` をダウンロードします
 2. 任意のフォルダに配置して起動します
 3. 初回起動時にセットアップウィザードが自動で実行されます
    - 必要なファイルのダウンロード
@@ -13,7 +13,7 @@
 
 ## VRChatのOSC設定
 
-KoeMoはOSCを使ってVRChatと通信します。VRChat側でOSCを有効にしてください。
+VoxEmoはOSCを使ってVRChatと通信します。VRChat側でOSCを有効にしてください。
 
 1. VRChatを起動する
 2. メニュー → **OSC** → **Enable** をオンにする

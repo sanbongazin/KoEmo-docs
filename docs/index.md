@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: "KoeMo"
+  name: "VoxEmo"
   text: "あなたの声に表情がつくギミック"
   tagline: 声をリアルタイムで分析し、VRChatアバターの表情に自動で反映します
   actions:

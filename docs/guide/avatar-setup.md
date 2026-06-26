@@ -1,6 +1,6 @@
 # アバターへの組み込み
 
-KoeMoはOSCを通じてVRChatアバターに感情情報を送信します。アバター側にOSCを受け取るギミック設定が必要です。
+VoxEmoはOSCを通じてVRChatアバターに感情情報を送信します。アバター側にOSCを受け取るギミック設定が必要です。
 
 ## 必要な準備
 
@@ -9,14 +9,14 @@ KoeMoはOSCを通じてVRChatアバターに感情情報を送信します。ア
 
 ## OSCパラメーター一覧
 
-KoeMoが送信するOSCパラメーターは以下のとおりです。
+VoxEmoが送信するOSCパラメーターは以下のとおりです。
 
 | パラメーター名 | 型 | 値の範囲 | 説明 |
 |---|---|---|---|
-| `KoeMo/Emotion/Joy` | Float | 0.0〜1.0 | 喜びの強度 |
-| `KoeMo/Emotion/Sadness` | Float | 0.0〜1.0 | 悲しみの強度 |
-| `KoeMo/Emotion/Anger` | Float | 0.0〜1.0 | 怒りの強度 |
-| `KoeMo/Emotion/Neutral` | Float | 0.0〜1.0 | 平静の強度 |
+| `VoxEmo/Emotion/Joy` | Float | 0.0〜1.0 | 喜びの強度 |
+| `VoxEmo/Emotion/Sadness` | Float | 0.0〜1.0 | 悲しみの強度 |
+| `VoxEmo/Emotion/Anger` | Float | 0.0〜1.0 | 怒りの強度 |
+| `VoxEmo/Emotion/Neutral` | Float | 0.0〜1.0 | 平静の強度 |
 
 ::: tip
 パラメーター名や値の範囲は今後のバージョンで変更される可能性があります。

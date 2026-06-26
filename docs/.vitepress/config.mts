@@ -2,17 +2,17 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   lang: 'ja',
-  title: 'KoeMo ドキュメント',
+  title: 'VoxEmo ドキュメント',
   description: '声から感情を読み取り、VRChatアバターの表情に反映するギミック',
-  base: '/KoEmo-docs/',
+  base: '/VoxEmo-docs/',
 
   head: [
-    ['link', { rel: 'icon', href: '/KoEmo-docs/favicon.ico' }],
+    ['link', { rel: 'icon', href: '/VoxEmo-docs/favicon.ico' }],
   ],
 
   themeConfig: {
     logo: '/logo.png',
-    siteTitle: 'KoeMo',
+    siteTitle: 'VoxEmo',
 
     nav: [
       { text: 'ホーム', link: '/' },
@@ -52,12 +52,12 @@ export default defineConfig({
     ],
 
     footer: {
-      message: 'KoeMo — あなたの声に表情がつくギミック',
+      message: 'VoxEmo — あなたの声に表情がつくギミック',
       copyright: 'Copyright © 2025 sanbongazin',
     },
 
     editLink: {
-      pattern: 'https://github.com/sanbongazin/KoEmo-docs/edit/main/docs/:path',
+      pattern: 'https://github.com/sanbongazin/VoxEmo-docs/edit/main/docs/:path',
       text: 'このページを編集する',
     },
 

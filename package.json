@@ -1,7 +1,7 @@
 {
-  "name": "koemo-docs",
+  "name": "voxemo-docs",
   "version": "1.0.0",
-  "description": "KoeMo 公式ドキュメントサイト",
+  "description": "VoxEmo 公式ドキュメントサイト",
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
